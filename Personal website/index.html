@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personal website of Mariam Ademola" />
+    <meta
+      name="keywords"
+      content="personal website, Mariam Ademola, tech goals"
+    />
+    <meta name="author" content="Mariam Ademola" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>My Personal Website</title>
+  </head>
+  <body>
+    <header>
+      <h1 data-testid="slackDisplayName">Mariam Ademola</h1>
+    </header>
+    <main>
+      <section>
+        <p data-testid="currentTimeUTC">
+          Current Time (UTC): <span id="js-currentTime-utc"></span>
+        </p>
+
+        <p data-testid="currentDay">
+          Current Day: <span id="js-day-of-week"></span>
+        </p>
+      </section>
+      <section>
+        <p data-testid="slackEmail">Slack Email: ademolamariam95@gmail.com</p>
+
+        <img
+          src="image/profile-240x320.png"
+          alt="Mariam Ademola profile Picture"
+          data-testid="slackProfilePicture"
+          width="240"
+          height="320"
+        />
+      </section>
+
+      <section>
+        <h2>URL Links</h2>
+        <ul>
+          <li>
+            <a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
+          </li>
+          <li>
+            <a href="https://keyword.dog" data-testid="keywordLink"
+              >Dog Keyword</a
+            >
+          </li>
+          <li>
+            <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink"
+              >Scrape Any Web</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>My Tech Goals for the Next 2 Years</h2>
+        <ul>
+          <li>Learn advanced JavaScript frameworks</li>
+          <li>Build and deploy full-stack applications</li>
+          <li>Contribute to open-source projects</li>
+          <li>Improve problem-solving skills</li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
